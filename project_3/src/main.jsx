@@ -4,7 +4,8 @@ import ReactDOM from 'react-dom/client';
 
 import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
 
-import App from './App';
+import Home from './routes/Home';
+import About from './routes/About';
 
 import './index.css';
 
@@ -14,7 +15,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        
+        element: <Home />,        
       },
       {
         path: "/about",
