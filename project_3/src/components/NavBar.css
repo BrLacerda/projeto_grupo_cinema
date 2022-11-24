@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(18, 20, 43);
+    height: 8vh;
+    box-shadow: black 1px 1px;
+}
+ul {
+    display: flex;
+}
+ul li{
+    margin-left: 80px;
+}
+h2 {
+    letter-spacing: 3px;
+}
