@@ -1,10 +1,11 @@
+import "./NavBar.css";
 import { Link } from "react-router-dom"
 
     const NavBar = () => {
         return (
             <nav className="navbar">
                 <h2>
-                   <Link to={'/'}>Nome</Link>
+                   <Link to={'/'}>Header</Link>
                 </h2>
                 <ul>
                     <li>
@@ -18,3 +19,4 @@ import { Link } from "react-router-dom"
             </nav>
         )
     }
+    export default NavBar

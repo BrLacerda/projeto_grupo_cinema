@@ -1,0 +1,19 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgb(29, 30, 40), rgb(23, 23, 54));
+    color: white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: white;
+    opacity: 0.5;
+    margin: 0;
+}
+a:hover {
+    opacity: 1;
+}
