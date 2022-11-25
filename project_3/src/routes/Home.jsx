@@ -13,20 +13,20 @@ const Home = () => {
             <input type="radio" name='radio-btn' id='radio5'/>
         </div>
 
-        <div className='slide first'>
-            <img src="https://disneyplusbrasil.com.br/wp-content/uploads/2022/08/Pantera-Negra-2-Disney-Plus.jpg" alt="image1" />
+        <div className='slide' id='first'>
+            <img src="https://disneyplusbrasil.com.br/wp-content/uploads/2022/08/Pantera-Negra-2-Disney-Plus.jpg" alt="Pantera Negra: Wakanda Forever" />
         </div>
         <div className='slide'>
-            <img src="https://cdn.fansshare.com/photograph/avatar2/avatar-banner-poster-1717766222.jpg" alt="image2" />
+            <img src="https://c4.wallpaperflare.com/wallpaper/810/33/235/movies-avatar-1680x1050-entertainment-movies-hd-art-wallpaper-preview.jpg" alt="Avatar" />
         </div>
         <div className='slide'>
-            <img src="https://cdn.falauniversidades.com.br/wp-content/uploads/2022/10/17111939/harry-potter-e-a-camara-secreta.jpg" alt="image3" />
+            <img src="https://cdn.falauniversidades.com.br/wp-content/uploads/2022/10/17111939/harry-potter-e-a-camara-secreta.jpg" alt="Harry Potter e a Câmara Secreta" />
         </div>
         <div className='slide'>
-            <img src="https://cdn.filestackcontent.com/compress/output=format:jpg/cache=expiry:max/resize=width:720/M73Nl04XQVq6LJ5YFaxx" alt="image4" />
+            <img src="https://cdn.filestackcontent.com/compress/output=format:jpg/cache=expiry:max/resize=width:720/M73Nl04XQVq6LJ5YFaxx" alt="Minions 2: A origem de Gru" />
         </div>
         <div className='slide'>
-            <img src="https://weu-www.sway-cdn.com/s/YXIMzz6wAUfAu9Qw/images/TJLq5XMNDICiQS?quality=1200&allowAnimation=true" alt="image5" />
+            <img src="https://weu-www.sway-cdn.com/s/YXIMzz6wAUfAu9Qw/images/TJLq5XMNDICiQS?quality=1200&allowAnimation=true" alt="Adão Negro" />
         </div>
       </div>
 
