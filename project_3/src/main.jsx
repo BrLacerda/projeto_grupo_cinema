@@ -23,10 +23,6 @@ const router = createBrowserRouter([
         element: <About />
 
       },
-      {
-        path: "/footer",
-        element: <Footer />
-      }
     ]
   }
 ])
