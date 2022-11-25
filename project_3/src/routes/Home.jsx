@@ -6,11 +6,11 @@ const Home = () => {
     <div>
       <div className="slider">
         <div className="slides">
-            <input type="radio" name='radio-btn' className='radio1'/>
-            <input type="radio" name='radio-btn' className='radio2'/>
-            <input type="radio" name='radio-btn' className='radio3'/>
-            <input type="radio" name='radio-btn' className='radio4'/>
-            <input type="radio" name='radio-btn' className='radio5'/>
+            <input type="radio" name='radio-btn' className='r1'/>
+            <input type="radio" name='radio-btn' className='r2'/>
+            <input type="radio" name='radio-btn' className='r3'/>
+            <input type="radio" name='radio-btn' className='r4'/>
+            <input type="radio" name='radio-btn' className='r5'/>
         </div>
 
 
@@ -46,7 +46,27 @@ const Home = () => {
           <label htmlFor="radio4" className='manual-btn'></label>
           <label htmlFor="radio5" className='manual-btn'></label>
         </div>
+
+
+
+        <div className="conteiner">
+            <div className="agenda">
+              <div className="dias">
+                <input type="radio" name='dia' id='dia0'/>
+                <input type="radio" name='dia' id='dia1'/>
+                <input type="radio" name='dia' id='dia2'/>
+                <input type="radio" name='dia' id="dia3"/>
+              </div>
+              <div className="labels">
+                <label htmlFor="dia0" className='tags'><h1>Hoje 25/11</h1></label>
+                <label htmlFor="dia0" className='tags'><h1>Amanhã 26/11</h1></label>
+                <label htmlFor="dia0" className='tags'><h1>Dia 27/11</h1></label>
+                <label htmlFor="dia0" className='tags'><h1>Dia 28/11</h1></label>
+              </div>
+            </div>
+        </div>
     </div>
+    
   )
 }
 

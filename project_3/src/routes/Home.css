@@ -41,7 +41,6 @@
 }
 .manual-btn:hover {
     background-color: rgb(255, 255, 255);
-    color: rgba(0, 0, 0, 0.699);
 }
 .first {
     margin-left: 0px;
@@ -67,18 +66,59 @@
     background-color: rgb(255, 255, 255);
 }
 
-.radio1:checked ~ #first{
+.r1:checked ~ #first{
     margin-left: 0px;
 }
-.radio2:checked ~ #first{
+.r2:checked ~ #first{
     margin-left: -100%;
 }
-.radio3:checked ~ #first{
+.r3:checked ~ #first{
     margin-left: -200%;
 }
-.radio4:checked ~ #first{
+.r4:checked ~ #first{
     margin-left: -300%;
 }
-.radio5:checked ~ #first{
+.r5:checked ~ #first{
     margin-left: -400%;
+}
+
+
+
+
+.conteiner {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.agenda {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    width: 100vw;
+    height: 120vh;
+    background-color: rgb(29, 30, 40);
+    border: 3px solid rgb(12, 12, 14);
+    border-radius: 25px;
+    box-shadow: 1px 1px  rgba(0, 0, 0, 0.573);
+}
+.labels {
+    margin-top: 5vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.labels .tags{
+    opacity: 0.5;
+    padding: 10px;
+    border: 2px solid rgb(12, 12, 14);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.labels .tags:hover{
+    opacity: 1;
+}
+.dias input{
+    display: none;
 }

@@ -9,7 +9,7 @@ body {
     height: 100vh;
     background-image: linear-gradient(to bottom, rgb(29, 30, 40), rgb(23, 23, 54));
     color: white;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 ul {
     list-style-type: none;
