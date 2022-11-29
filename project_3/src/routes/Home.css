@@ -16,7 +16,7 @@
     box-shadow: 1px 1px  rgba(0, 0, 0, 0.573);
 }
 .labels {
-    margin-top: 5vh;
+    margin-top: 30px;
     display: flex;
     align-items: flex-start;
     justify-content: space-evenly;
@@ -30,7 +30,10 @@
     transition: 0.5s;
 }
 .labels .tags:hover{
+    margin-bottom: -10px;
+    background-color: rgb(12, 12, 14);
     opacity: 1;
+
 }
 .dias input{
     display: none;
@@ -38,8 +41,13 @@
 
 
 .conteinerFilmes {
+    margin: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 96px;
     display: flex;
     flex-direction: column;
+    background-color: rgb(12, 12, 14);
+    border-radius: 25px;
 }
 .filmeCard {
     margin-top: 50px;
@@ -59,11 +67,22 @@
     opacity: 1;
 }
 .movieCaps {
+    display: flex;
     width: 130px;
     height: 215px;
+    background-color: rgb(27, 27, 39);
+}
+.infoIcons {
+    margin-top: 3px;
+    display: flex;
+    justify-content: space-around;
 }
 .movieInfo {
     width: 700px;
     height: 200px;
     margin-top: 50px;
+}
+.btn-group {
+    display: flex;
+    justify-content: space-evenly;
 }
