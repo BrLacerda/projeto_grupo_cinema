@@ -19,7 +19,7 @@ const Home = () => {
                 <img src="https://images.fanart.tv/fanart/terrifier-634d91d05ff87.jpg" class="d-block w-100" alt=""/>
               </div>
               <div class="carousel-item">
-                <img src="https://img.techplanet.today/800x,jpeg/https://techplanet.today/storage/posts/2022/10/03/90/h0wygMtx6Tep5jhlC1kq5kYP2XZlAiXBs4COGmBK.jpg" class="d-block w-100" alt=""/>
+                <img src="https://portalrapmais.com/wp-content/uploads/2022/10/adao-negro-scaled-e1665680179489.jpg" class="d-block w-100" alt=""/>
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
