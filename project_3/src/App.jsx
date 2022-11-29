@@ -4,34 +4,6 @@ import { Outlet } from 'react-router-dom';
 import './App.css';
 import api from './Api';
 
-class App extends Component{
-  
-  state= {
-    filmes: [],
-  }
-
-  async componentDidMount(){
-    const response = await api.get('');
-
-    this.setState({ filmes: response.data});
-  }
-  render() {
-    const { filmes } = this.state;
-
-    return (
-      <div>
-        {console.log(filmes)}
-        {filmes.map(filme => (
-          <li key={filme.show.id}>
-            
-          </li>
-        ))}
-      </div>
-    )
-    
-  }
-}
-
   function App() {
       return (
         <div className="container">
