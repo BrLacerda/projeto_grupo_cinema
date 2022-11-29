@@ -1,0 +1,85 @@
+{
+      "filmes": [
+          {
+              "id": 1,
+              "título": "Pantera Negra: Wakanda para sempre",
+              "sinopse": "",
+              "ingresso":  20,
+              "diasEmCartaz_id": 1,
+              "faixaEtaria_id": 2
+    
+          },
+          {
+              "id": 2,
+              "título": "Aterrorizante 2",
+              "sinopse": "",
+              "preço": 20,
+              "diasEmCartaz_id": 2,
+              "faixaEtaria_id": 4
+    
+          },
+          {
+              "id": 3,
+              "título": "Minions 2: A origem de Gru",
+              "sinopse": "",
+              "preço": 20,
+              "diasEmCartaz_id": 4,
+              "faixaEtaria_id": 1
+    
+          },
+          {
+              "id": 4,
+              "título": "Adão Negro",
+              "sinopse": "",
+              "preço": 20,
+              "diasEmCartaz_id": 1,
+              "faixaEtaria_id": 3
+    
+          },
+          {
+              "id": 5,
+              "título": "Avatar",
+              "sinopse": "",
+              "preço": 15,
+              "diasEmCartaz_id": 3,
+              "faixaEtaria_id": 2
+          }
+      ],
+      "diasEmCartaz": [
+          {
+              "id": 1,
+              "ultimoDia": 4
+          },
+          {
+              "id": 2,
+              "ultimoDia": 3
+          },
+          {
+              "id": 3,
+              "ultimoDia": 2
+          },
+          {
+              "id": 4,
+              "ultimoDia": 1
+          }
+      ],
+      "faixaEtaria": [
+        {
+              "id": 1,
+              "nome": "Livre"
+      },
+        {
+            "id": 2,
+            "nome": "12"
+      },
+        {
+            "id": 3,   
+            "nome": "14"
+      },
+    
+        {
+            "id": 4,   
+            "nome": "18"
+      }
+    ]
+    }
