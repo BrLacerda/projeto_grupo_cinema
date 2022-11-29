@@ -4,20 +4,10 @@ import { Outlet } from 'react-router-dom';
 import './App.css';
 import api from './Api/Api';
 
-class App extends Component{
+function App () {
+
+
   
-  state= {
-    filmes: [],
-  }
-
-  async componentDidMount(){
-    const response = await api.get('/filmes');
-
-    this.setState({ filmes: response.data});
-  }
-  render() {
-    const { filmes } = this.state;
-
     return (
       <div>
         <div className="container">
@@ -29,16 +19,11 @@ class App extends Component{
             <Footer />
           </div>
         </div>
-        {console.log(filmes)}
-        {filmes.map(filme => (
-          <li key={filme.show.id}>
-            
-          </li>
-        ))}
+        
       </div>
     )
     
   }
-}
+
 
 export default App;
