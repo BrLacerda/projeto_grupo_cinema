@@ -4,48 +4,34 @@ import './Home.css';
 const Home = () => {
   return (
     <div>
-      <div className="slider">
-        <div className="slides">
-            <input type="radio" name='radio-btn' className='r1'/>
-            <input type="radio" name='radio-btn' className='r2'/>
-            <input type="radio" name='radio-btn' className='r3'/>
-            <input type="radio" name='radio-btn' className='r4'/>
-            <input type="radio" name='radio-btn' className='r5'/>
-        </div>
 
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://disneyplusbrasil.com.br/wp-content/uploads/2022/08/Pantera-Negra-2-Disney-Plus.jpg" class="d-block w-100" alt=""/>
+              </div>
+              <div class="carousel-item">
+                <img src="https://images.fanart.tv/fanart/terrifier-634d91d05ff87.jpg" class="d-block w-100" alt=""/>
+              </div>
+              <div class="carousel-item">
+                <img src="https://img.techplanet.today/800x,jpeg/https://techplanet.today/storage/posts/2022/10/03/90/h0wygMtx6Tep5jhlC1kq5kYP2XZlAiXBs4COGmBK.jpg" class="d-block w-100" alt=""/>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
 
-          <div className='slide' id='first'>
-              <img src="https://disneyplusbrasil.com.br/wp-content/uploads/2022/08/Pantera-Negra-2-Disney-Plus.jpg" alt="Pantera Negra: Wakanda Forever" />
-          </div>
-          <div className='slide'>
-              <img src="https://c4.wallpaperflare.com/wallpaper/810/33/235/movies-avatar-1680x1050-entertainment-movies-hd-art-wallpaper-preview.jpg" alt="Avatar" />
-          </div>
-          <div className='slide'>
-              <img src="https://images.fanart.tv/fanart/terrifier-634d91d05ff87.jpg" alt="Terrifier 2" />
-          </div>
-          <div className='slide'>
-              <img src="https://cdn.filestackcontent.com/compress/output=format:jpg/cache=expiry:max/resize=width:720/M73Nl04XQVq6LJ5YFaxx" alt="Minions 2: A origem de Gru" />
-          </div>
-          <div className='slide'>
-              <img src="https://weu-www.sway-cdn.com/s/YXIMzz6wAUfAu9Qw/images/TJLq5XMNDICiQS?quality=1200&allowAnimation=true" alt="Adão Negro" />
-          </div>
-        </div>
-
-        <div className="nav-auto">
-          <div className="auto-btn1"></div>
-          <div className="auto-btn2"></div>
-          <div className="auto-btn3"></div>
-          <div className="auto-btn4"></div>
-          <div className="auto-btn5"></div>
-        </div>
-
-        <div className="manual">
-          <label htmlFor="radio1" className='manual-btn'></label>
-          <label htmlFor="radio2" className='manual-btn'></label>
-          <label htmlFor="radio3" className='manual-btn'></label>
-          <label htmlFor="radio4" className='manual-btn'></label>
-          <label htmlFor="radio5" className='manual-btn'></label>
-        </div>
 
 
 
