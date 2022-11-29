@@ -21,7 +21,7 @@ const Home = () => {
               <img src="https://c4.wallpaperflare.com/wallpaper/810/33/235/movies-avatar-1680x1050-entertainment-movies-hd-art-wallpaper-preview.jpg" alt="Avatar" />
           </div>
           <div className='slide'>
-              <img src="https://cdn.falauniversidades.com.br/wp-content/uploads/2022/10/17111939/harry-potter-e-a-camara-secreta.jpg" alt="Harry Potter e a Câmara Secreta" />
+              <img src="https://images.fanart.tv/fanart/terrifier-634d91d05ff87.jpg" alt="Terrifier 2" />
           </div>
           <div className='slide'>
               <img src="https://cdn.filestackcontent.com/compress/output=format:jpg/cache=expiry:max/resize=width:720/M73Nl04XQVq6LJ5YFaxx" alt="Minions 2: A origem de Gru" />
@@ -86,7 +86,7 @@ const Home = () => {
 
                 <div className="filmeCard">
                   <div className="movieImg">
-                  <img src="https://felicisses.files.wordpress.com/2017/03/20230712.jpg" alt="Capa do Harry Potter" className='movieCaps'/>
+                  <img src="https://s3.amazonaws.com/img.iluria.com/product/8CB08D/162BEC4/450xN.jpg" alt="Capa do Terrifier 2" className='movieCaps'/>
                   </div>
                   <div className="movieInfo">
                   <h5>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi eius architecto recusandae fugit! Ipsa dolores maxime tempore soluta iure! Nesciunt doloribus nam delectus repudiandae doloremque! Eaque voluptate voluptas mollitia labore.</h5>
