@@ -41,8 +41,8 @@ const Home = () => {
         ))
       )}
     </div>
-  )
-
+  );
+};
 
 
   return (
@@ -173,6 +173,6 @@ const Home = () => {
     </div>
     
   )
-}
+
 
 export default Home
