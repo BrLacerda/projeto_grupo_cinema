@@ -96,7 +96,7 @@
     margin-top: 5vh;
     margin-bottom: 5vh;
     width: 100vw;
-    height: 120vh;
+    height: 220vh;
     background-color: rgb(29, 30, 40);
     border: 3px solid rgb(12, 12, 14);
     border-radius: 25px;
@@ -121,4 +121,36 @@
 }
 .dias input{
     display: none;
+}
+
+
+.conteinerFilmes {
+    display: flex;
+    flex-direction: column;
+}
+.filmeCard {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(12, 12, 14);
+    opacity: 0.6;
+    border: 2px solid rgb(12, 12, 14);
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 1s;
+}
+.filmeCard:hover {
+    opacity: 1;
+}
+.movieCaps {
+    width: 130px;
+    height: 215px;
+}
+.movieInfo {
+    width: 700px;
+    height: 200px;
+    margin-top: 50px;
 }

@@ -63,6 +63,56 @@ const Home = () => {
                 <label htmlFor="dia0" className='tags'><h1>Dia 27/11</h1></label>
                 <label htmlFor="dia0" className='tags'><h1>Dia 28/11</h1></label>
               </div>
+              <div className="conteinerFilmes">
+                <div className="filmeCard">
+                  <div className="movieImg">
+                    <img src="https://br.web.img3.acsta.net/pictures/20/02/03/09/30/4865530.jpg" alt="Capa do Minions 2" className='movieCaps'/>
+                  </div>
+                  <div className="movieInfo">
+                    <h5>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi eius architecto recusandae fugit! Ipsa dolores maxime tempore soluta iure! Nesciunt doloribus nam delectus repudiandae doloremque! Eaque voluptate voluptas mollitia labore.</h5>
+                  </div>
+                </div>
+
+
+                <div className="filmeCard">
+                  <div className="movieImg">
+                  <img src="https://cdn.fstatic.com/media/movies/covers/2011/06/540cd1294ec23fd5fb74b2a83423536d_5.jpg" alt="Capa do Avatar" className='movieCaps'/>
+                  </div>
+                  <div className="movieInfo">
+                  <h5>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi eius architecto recusandae fugit! Ipsa dolores maxime tempore soluta iure! Nesciunt doloribus nam delectus repudiandae doloremque! Eaque voluptate voluptas mollitia labore.</h5>
+                  </div>
+                </div>
+
+
+                <div className="filmeCard">
+                  <div className="movieImg">
+                  <img src="https://felicisses.files.wordpress.com/2017/03/20230712.jpg" alt="Capa do Harry Potter" className='movieCaps'/>
+                  </div>
+                  <div className="movieInfo">
+                  <h5>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi eius architecto recusandae fugit! Ipsa dolores maxime tempore soluta iure! Nesciunt doloribus nam delectus repudiandae doloremque! Eaque voluptate voluptas mollitia labore.</h5>
+                  </div>
+                </div>
+
+
+                <div className="filmeCard">
+                  <div className="movieImg">
+                  <img src="https://p2.trrsf.com/image/fget/cf/648/0/images.terra.com/2022/09/09/526262834-blackadamver5xlg.jpg" alt="Capa do Adão Negro" className='movieCaps'/>
+                  </div>
+                  <div className="movieInfo">
+                  <h5>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi eius architecto recusandae fugit! Ipsa dolores maxime tempore soluta iure! Nesciunt doloribus nam delectus repudiandae doloremque! Eaque voluptate voluptas mollitia labore.</h5>
+                  </div>
+                </div>
+
+
+                <div className="filmeCard">
+                  <div className="movieImg">
+                  <img src="https://pbs.twimg.com/media/FgfNxy8WAAA2jAx.jpg" alt="Capa do Wakanda Forever" className='movieCaps'/>
+                  </div>
+                  <div className="movieInfo">
+                  <h5>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi eius architecto recusandae fugit! Ipsa dolores maxime tempore soluta iure! Nesciunt doloribus nam delectus repudiandae doloremque! Eaque voluptate voluptas mollitia labore.</h5>
+                  </div>
+                </div>
+              </div>
             </div>
         </div>
     </div>
