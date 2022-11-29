@@ -29,12 +29,6 @@ class App extends Component{
             <Footer />
           </div>
         </div>
-        {console.log(filmes)}
-        {filmes.map(filme => (
-          <li key={filme.show.id}>
-            
-          </li>
-        ))}
       </div>
     )
     
