@@ -2,7 +2,7 @@ import Footer from './components/Footer';
 import NavBar from './components/NavBar';
 import { Outlet } from 'react-router-dom';
 import './App.css';
-import api from './Api/Api';
+import api from './Api';
 
 class App extends Component{
   
@@ -11,7 +11,7 @@ class App extends Component{
   }
 
   async componentDidMount(){
-    const response = await api.get('/filmes');
+    const response = await api.get('');
 
     this.setState({ filmes: response.data});
   }
@@ -20,6 +20,20 @@ class App extends Component{
 
     return (
       <div>
+        {console.log(filmes)}
+        {filmes.map(filme => (
+          <li key={filme.show.id}>
+            
+          </li>
+        ))}
+      </div>
+    )
+    
+  }
+}
+
+  function App() {
+      return (
         <div className="container">
           <div className="navBar">
             <NavBar />
@@ -29,10 +43,7 @@ class App extends Component{
             <Footer />
           </div>
         </div>
-      </div>
-    )
-    
+      )
   }
-}
 
 export default App;
