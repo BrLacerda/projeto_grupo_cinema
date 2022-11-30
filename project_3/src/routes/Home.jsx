@@ -9,23 +9,11 @@ const Home = () => {
 
   const [posts, setPosts] = useState([])
 
-  const getPosts = async() => {
-
-    try {
-
-      const response = await axios.get("https://jsonplaceholder.typicode.com/posts");
-      
-      const data = response.data;
-      console.log(data);
-
-    } catch (error) {
-      console.log(error);
-
-    }
-  };
-
   useEffect(() => {
-    getPosts();
+
+    fetch('https://json-sever-proj-resilia.onrender.com/produtos')
+      .then(response => response.json())
+      .then(data => console.log(data))
 
   }, []);
   return (
