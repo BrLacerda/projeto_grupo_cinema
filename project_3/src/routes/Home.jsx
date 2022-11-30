@@ -32,11 +32,11 @@ const Home = () => {
     <div>
       <h1>Em cartaz</h1>
       {posts.length === 0 ? <p>Carregando...</p> : (
-        posts.map((posts) => (
-          <div className='post' key={posts.id}>
+        posts.map((post) => (
+          <div className='post' key={post.id}>
               <h2>{post.title}</h2>
-              <p>{posts.body}</p>
-              <Link to={`/posts/${posts.id}`} className="btn" >Comprar</Link>
+              <p>{post.body}</p>
+              <Link to={`/posts/${posts.id}`} className="btn">Comprar</Link>
           </div>
         ))
       )}

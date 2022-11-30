@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div class="left">
-		<h4 class="title-footer">Cine <span>Brasil</span></h4>
+		<h4 class="title-footer">Mov<span>Yes</span></h4>
 		
     <p class="links">
 			<a href="#" title="Home">Mapa do site</a>
