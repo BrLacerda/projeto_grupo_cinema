@@ -2,7 +2,6 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import './Home.css';
 import Carrossel from '../components/Carrossel';
-import { useParams } from 'react-router-dom';
 
 
 const Home = () => {
