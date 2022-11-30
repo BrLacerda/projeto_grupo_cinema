@@ -40,11 +40,6 @@ const Home = () => {
           </div>
         ))
       )}
-    </div>
-  );
-
-
-  return (
     <div>
 
           <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
@@ -170,6 +165,7 @@ const Home = () => {
             </div>
         </div>
     </div>
+  </div>
     
   )}
 
