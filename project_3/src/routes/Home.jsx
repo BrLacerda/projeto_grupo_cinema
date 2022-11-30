@@ -7,9 +7,7 @@ import { useParams } from 'react-router-dom';
 
 const Home = () => {
 
-  const { id } = useParams()
-
-  const [posts, setPosts] = useState([])
+  const [movies, setMovies] = useState([])
 
   useEffect(() => {
 

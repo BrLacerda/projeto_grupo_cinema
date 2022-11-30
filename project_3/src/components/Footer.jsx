@@ -4,25 +4,23 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div class="left">
-		<h4 class="title-footer">Mov<span>Yes</span></h4>
+		<h4 class="title-footer">Mov <span>Yes</span></h4>
 		
-    <p class="links">
+    		<p class="links">
 			<a href="#" title="Home">Mapa do site</a>
 			<a href="#" title="Html">Fale conosco</a>
 			<a href="#" title="Css">Siga-nos</a>
 		</p>
+
 		
-    <div class="footer-icons">
-			<a href="#"><i class="bi bi-facebook"></i></a>
-			<a href="#"><i class="bi bi-instagram"></i></a>
-			<a href="#"><i class="bi bi-pinterest"></i></a>
-			<a href="#"><i class="bi bi-twitter"></i></a>
+	
+		<p class="Copyright">Copyright &copy; 2022 MovYes - Todos os Direitos Reservados.</p>
+    
 		
     </div>
-                <p class="Copyright">Copyright &copy; 2022 CineBrasil - Todos os Direitos Reservados.</p>
-	</div>
+                
 	
-  <div class="right">
+  	<div class="right">
 		<h4 class="title-footer">Contato</h4>
 		<form action="#" method="post">
 			<input type="text" name="nome" placeholder="Nome" required=""/>
