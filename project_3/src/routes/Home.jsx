@@ -6,13 +6,13 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
 
-  const [posts, setPosts] = useState([])
+  const [movies, setMovies] = useState([])
 
   useEffect(() => {
 
     fetch('https://json-sever-proj-resilia.onrender.com/produtos')
       .then(response => response.json())
-      .then(data => setPosts(data.results))
+      .then(data => setMovies(data.results))
 
   }, []);
   return (
