@@ -12,7 +12,7 @@
     height: 220vh;
     background-color: rgb(29, 30, 40);
     border: 3px solid rgb(12, 12, 14);
-    border-radius: 25px;
+    border-radius: 10px;
     box-shadow: 1px 1px  rgba(0, 0, 0, 0.573);
 }
 .labels {
@@ -43,11 +43,12 @@
 .conteinerFilmes {
     margin: 0px;
     margin-bottom: 0px;
-    padding-bottom: 96px;
+    padding-bottom: 178px;
     display: flex;
     flex-direction: column;
     background-color: rgb(12, 12, 14);
-    border-radius: 25px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 .filmeCard {
     margin-top: 50px;

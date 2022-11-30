@@ -4,4 +4,4 @@ const api = axios.create({
       baseURL: 'https://json-sever-proj-resilia.onrender.com/'
 })
 
-export default api;
+export default Api;
