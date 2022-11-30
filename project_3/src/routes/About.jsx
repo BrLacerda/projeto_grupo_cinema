@@ -9,7 +9,7 @@ const About = () => {
 
         <div class="card">
           <div className="contImg">
-          <img src="https://c4.wallpaperflare.com/wallpaper/553/367/746/stuart-the-minion-4k-funny-minions-8k-wallpaper-preview.jpg" class="card-img-top" alt="..."/>
+          <img src="https://t1.uc.ltmcdn.com/pt/posts/1/5/0/como_fazer_uma_fantasia_de_minion_roxo_8051_600.jpg" class="card-img-top" alt="..."/>
           </div>
           <div class="card-body">
             <h5 class="card-title">Davi Souza</h5>
@@ -20,7 +20,7 @@ const About = () => {
 
         <div class="card">
           <div className="contImg">
-            <img src="https://i.pinimg.com/736x/6d/f1/cc/6df1cc38153cfd3b2b7a77fe4237071b.jpg" class="card-img-top" alt="..."/>
+            <img src="https://w7.pngwing.com/pngs/347/623/png-transparent-despicable-me-2-attack-of-the-evil-minions-kevin-the-minion-bob-the-minion-felonious-gru-minion-marriage-purple-violet-desktop-wallpaper-thumbnail.png" class="card-img-top" alt="..."/>
           </div>
           <div class="card-body">
             <h5 class="card-title">Lucas</h5>
@@ -34,7 +34,7 @@ const About = () => {
 
         <div class="card">
           <div className="contImg">
-            <img src="https://wallpapercave.com/wp/wp4277589.jpg" class="card-img-top" alt="..."/>
+            <img src="https://w7.pngwing.com/pngs/588/721/png-transparent-sticker-despicable-me-minions-telegram-illumination-minions-paradise-purple-violet-sticker-thumbnail.png" class="card-img-top" alt="..."/>
           </div>
           <div class="card-body">
             <h5 class="card-title">Bruno Lacerda</h5>

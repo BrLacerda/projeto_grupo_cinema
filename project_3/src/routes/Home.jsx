@@ -2,9 +2,12 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import './Home.css';
 import Carrossel from '../components/Carrossel';
+import { useParams } from 'react-router-dom';
 
 
 const Home = () => {
+
+  const { id } = useParams()
 
   const [posts, setPosts] = useState([])
 
@@ -12,13 +15,22 @@ const Home = () => {
 
     fetch('https://json-sever-proj-resilia.onrender.com/produtos')
       .then(response => response.json())
-      .then(data => console.log(data))
+      .then(data => { 
+      setPosts(data)
+      console.log(posts)
+  })
 
   }, []);
   return (
     <div>
-
     <div>
+      <h1>Teste</h1>
+
+      {posts.map( post => {
+        return (
+          <h1>{post.nome}</h1>
+        
+      )})}
 
       <Carrossel />
 
