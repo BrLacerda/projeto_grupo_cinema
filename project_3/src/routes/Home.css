@@ -87,3 +87,29 @@
     display: flex;
     justify-content: space-evenly;
 }
+
+
+
+.contLoad {
+    position: absolute;
+    width: 85vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pre-load {
+    width: 50px;
+    height: 50px;
+    border: 5px solid rgb(12, 12, 14);
+    border-radius: 50%;
+    border-top-color: #2fcacf;
+    animation: load 2s infinite linear;;
+}
+
+@keyframes load {
+    to {
+        transform: rotate(1turn);
+    }
+}

@@ -20,6 +20,13 @@ const Home = () => {
   }, []);
   return (
     <div>
+
+      <div className="contLoad">
+        <div className="pre-load">
+        </div>
+      </div>
+
+
     <div>
       <h1>Teste</h1>
 
