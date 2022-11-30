@@ -1,7 +1,6 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 import './Home.css';
-import axios from 'axios';
 
 import { Link } from "react-router-dom";
 
@@ -13,21 +12,11 @@ const Home = () => {
 
     fetch('https://json-sever-proj-resilia.onrender.com/produtos')
       .then(response => response.json())
-      .then(data => console.log(data))
+      .then(data => setPosts(data.results))
 
   }, []);
   return (
     <div>
-      <h1>Em cartaz</h1>
-      {posts.length === 0 ? <p>Carregando...</p> : (
-        posts.map((post) => (
-          <div className='post' key={post.id}>
-              <h2>{post.title}</h2>
-              <p>{post.body}</p>
-              <Link to={`/posts/${posts.id}`} className="btn">Comprar</Link>
-          </div>
-        ))
-      )}
     <div>
 
           <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
