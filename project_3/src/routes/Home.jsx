@@ -12,11 +12,8 @@ const Home = () => {
 
     fetch('https://json-sever-proj-resilia.onrender.com/produtos')
       .then(response => response.json())
-<<<<<<< HEAD
       .then(data => setMovies(data.results))
-=======
       .then(data => console.log(data))
->>>>>>> 9edee26ece26ac55ba8ff21e96db7e66f8479a82
 
   }, []);
   return (
