@@ -31,18 +31,17 @@ const Home = () => {
   return (
     <div>
       <h1>Em cartaz</h1>
-      {post.length === 0 ? <p>Carregando...</p> : (
-        posts.map((post) => (
-          <div className='post' key={post.id}>
+      {posts.length === 0 ? <p>Carregando...</p> : (
+        posts.map((posts) => (
+          <div className='post' key={posts.id}>
               <h2>{post.title}</h2>
-              <p>{post.body}</p>
-              <Link to={`/posts/${post.id}`} className="btn" >Comprar</Link>
+              <p>{posts.body}</p>
+              <Link to={`/posts/${posts.id}`} className="btn" >Comprar</Link>
           </div>
         ))
       )}
     </div>
   );
-};
 
 
   return (
@@ -172,7 +171,7 @@ const Home = () => {
         </div>
     </div>
     
-  )
+  )}
 
 
 export default Home
