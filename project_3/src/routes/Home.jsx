@@ -14,8 +14,8 @@ const Home = () => {
     fetch('https://json-sever-proj-resilia.onrender.com/produtos')
       .then(response => response.json())
       .then(data => { 
-      setPosts(data)
-      console.log(posts)
+      setMovies(data)
+      console.log(movies)
   })
 
   }, []);
@@ -24,9 +24,9 @@ const Home = () => {
     <div>
       <h1>Teste</h1>
 
-      {posts.map( post => {
+      {movies.map( movie => {
         return (
-          <h1>{post.nome}</h1>
+          <h1>{movie.nome}</h1>
         
       )})}
 
